@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity12"
+    android:paddingTop="40dp"
+    >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtname1"
+        android:layout_above="@id/txtemail"
+
+        android:hint="Enter dsafsafdsf"></EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail"
+       android:layout_marginTop="50dp"
+        android:hint="Enter Email">
+
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtname"
+        android:layout_below="@id/txtemail"
+
+        android:hint="Enter name"></EditText>
+
+
+     <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/txtmobile"
+         android:layout_below="@id/txtname"
+
+         android:hint="Enter Mobileno">
+
+     </EditText>
+
+</RelativeLayout>

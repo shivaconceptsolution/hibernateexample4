@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridLayoutExample">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="ONE"
+        android:id="@+id/bgl"
+        android:layout_width="wrap_content"
+
+        android:layout_row="1"
+        android:layout_column="1"
+        ></Button>
+
+    <Button
+        android:text="TWO"
+        android:id="@+id/bg2"
+        android:layout_row="1"
+        android:layout_column="2"
+        ></Button>
+
+    <Button
+        android:text="THREE"
+        android:id="@+id/bg3"
+        android:layout_row="2"
+        android:layout_column="1"
+        ></Button>
+
+    <Button
+        android:text="FOUR"
+        android:id="@+id/bg4"
+        android:layout_row="2"
+        android:layout_column="2"
+        ></Button>
+    </GridLayout>
+</RelativeLayout>
